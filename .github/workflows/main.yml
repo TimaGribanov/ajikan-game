@@ -15,4 +15,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "ajikan-game-node"
           heroku_email: "t.gribanow@gmail.com"
+          buildpack: "heroku/nodejs"
           appdir: "node"
