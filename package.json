@@ -1,0 +1,28 @@
+{
+  "name": "ajikan-game",
+  "version": "1.0.0",
+  "description": "Little sorting game on Asian Kung-Fu Generation's songs",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimaGribanov/ajikan-game.git"
+  },
+  "keywords": [
+    "express",
+    "server"
+  ],
+  "author": "Timofey Gribanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimaGribanov/ajikan-game/issues"
+  },
+  "homepage": "https://github.com/TimaGribanov/ajikan-game#readme"
+}
