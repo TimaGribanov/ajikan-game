@@ -20,3 +20,4 @@ jobs:
           heroku_email: "t.gribanow@gmail.com"
           buildpack: "heroku/nodejs"
           appdir: "node"
+          dontuseforce: true
