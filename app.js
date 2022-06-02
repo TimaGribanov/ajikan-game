@@ -3,6 +3,12 @@ const app = express();
 const port = process.env.PORT || 3000;
 const gameRoute = require('./routes/gameRoute.js');
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "https://timagribanov.github.io");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
 app.use(express.json());
 
 app.use(
