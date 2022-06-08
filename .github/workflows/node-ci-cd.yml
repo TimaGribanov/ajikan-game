@@ -23,12 +23,12 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment: heroku-nodejs-deploy
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.11 
+      - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "ajikan-game-ci-test"
+          heroku_app_name: "ajikan-game-node"
           heroku_email: "t.gribanow@gmail.com"
           appdir: "node"
-          #buildpack: "heroku/nodejs"

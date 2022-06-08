@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
     res.json({message: 'OK'});
 });
 
-app.use('/songs', gameRoute);
+app.use('/', gameRoute);
 
 app.use((err, req, res, next) => {
     const statusCode = err.statusCode || 500;
