@@ -27,4 +27,4 @@ jobs:
           heroku_app_name: "ajikan-game-ci-test"
           heroku_email: "t.gribanow@gmail.com"
           appdir: "node"
-          buildpack: "heroku/nodejs"
+          #buildpack: "heroku/nodejs"
