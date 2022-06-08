@@ -17,9 +17,9 @@ app.use(
     })
 );
 
-app.get('/', (req, res) => {
+/*app.get('/', (req, res) => {
     res.json({message: 'OK'});
-});
+});*/
 
 app.use('/', gameRoute);
 
